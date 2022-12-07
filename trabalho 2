@@ -1,0 +1,27 @@
+Algoritmo "semnome"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor: Antonio Carlos Nicolodi 
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Nome do(a) aluno(a)
+// Dados atuais: 28/11/2022
+var
+// Seção de Declarações das variáveis 
+
+velocidade:real
+multa: real
+início
+// Seção de Comandos, procedimentos, funções, operadores, etc... 
+escreval("qual a sua velocidade")
+leia(velo)
+se velocidade > 80 então
+escreval("você foi multado em R$ ")
+multa <- 5 * (velo - 80)
+escreval (multi)
+fimse
+Fimalgoritmo
+Rodapé
+© 2022 GitHub, Inc.
+Navegação no rodapé
+Termos
+Privacidade
+Segurança
