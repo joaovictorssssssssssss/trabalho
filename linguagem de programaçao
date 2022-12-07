@@ -1,0 +1,21 @@
+Algoritmo "semnome"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor: Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Nome do(a) aluno(a)
+// Dados atuais: 28/11/2022
+var
+// Seção de Declarações das variáveis
+numero: real
+
+início
+// Seção de Comandos, procedimentos, funções, operadores, etc...
+escreval ("digite um numero")
+leia (número)
+se numero %2=0 então
+escreval (número, "é par")
+senão
+escreval (número, "é impar")
+fimse
+
+Fimalgoritmo
