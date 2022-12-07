@@ -1,0 +1,29 @@
+Algoritmo "semnome"
+// Disciplina : [Linguagem e Lógica de Programação]
+// Professor: Antonio Carlos Nicolodi
+// Descrição : Aqui você descreve o que o programa faz! (função)
+// Autor(a) : Nome do(a) aluno(a)
+// Dados atuais: 12/05/2022
+var
+// Seção de Declarações das variáveis
+
+idade: real
+
+início
+// Seção de Comandos, procedimentos, funções, operadores, etc...
+
+escreval("qual sua idade: ")
+leia(idade)
+se (idade < 18) então
+   esbel("Faltam: ", 18-idade, " anos para o alistamento")
+fimse
+
+se (idade > 18) então
+   escreval("já se passou", idade-18, "anos do alinhamento")
+fimse
+
+se (idade = 18) então
+   escreval("vá se alistar")
+fimse
+
+Fimalgoritmo
